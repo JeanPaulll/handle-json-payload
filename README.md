@@ -11,8 +11,8 @@ Library to handle the object that will be sent to an API service
 [![npm](https://img.shields.io/npm/v/handle-json-payload.svg)]()
 [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg?label=agenciacriamais)](http://www.agenciacriamais.com.br)
 
-> `handle-json-payload` I'm making this library to solve a problem with objects for payload, the purpose of this library is to intercept the final object, clean, correct, remove null properties, empty arrays, undefined. Hope I can contribute to the community, and welcome to add more features. Thanks :)
-.
+> `handle-json-payload` I'm making this library to solve a problem with payload objects, the purpose of this library is to intercept the final object, clean, fix, remove null properties, empty arrays, undefined. I hope to be able to contribute to the community!
+Welcome to add more features. Thanks :)
 
 ## Characteristics
 
