@@ -23,26 +23,6 @@ export const treatObjectToSend = (obj: { [key: string]: any }, interceptAndHandl
 }): { [key: string]: any } | undefined => {
     let finalObject = Object.assign({}, obj);
     let count = 1;
-
-
-    const a = {
-        "teste2": "Jean Paul",
-        "teste4": [
-            {
-                "teste6": "Teste 6"
-            },
-            {
-                "teste8": "Teste 8"
-            }
-        ],
-        "teste12": {
-            "teste15": false
-        },
-        "teste17": false,
-        "teste18": 18
-    }
-
-
     const removePropertiesNull = (data: { [key: string]: any } = {}): { [key: string]: any } => {
         const _data: any = {};
         Object.keys(data).forEach((r) => {
