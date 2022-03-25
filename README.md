@@ -1,4 +1,5 @@
 # handle-json-payload
+
 Library to handle the object that will be sent to an API service
 
 [![GitHub top language](https://img.shields.io/github/languages/top/JeanPaulll/handle-json-payload#readme.svg)]()
@@ -14,6 +15,7 @@ Library to handle the object that will be sent to an API service
 .
 
 ## Characteristics
+
 * Treat an object with empty, null, array, empty and etc properties
 
 ## How to use
@@ -21,11 +23,15 @@ Library to handle the object that will be sent to an API service
 ![](https://raw.githubusercontent.com/JeanPaulll/handle-json-payload/main/doc/1.png)
 
 ### Installation
+
 OS X & Linux:
+
 ````
 npm i handle-json-payload --save
 ````
+
 Windows:
+
 ````
 npm i handle-json-payload --save
 ````
@@ -80,7 +86,9 @@ console.log(cleanObject);
 
 
 `````
+
 ### 2 - Now how to intercept and handle the traversed values
+
 ` If you want to intercept the values ​​and treat you can follow this second example`
 
 `````sh
@@ -139,12 +147,35 @@ console.log(cleanObject);
 
 `````
 
+## FINAL RESULT
+
+
+`````sh
+
+
+  {
+    teste2: "Some text to represent string",
+    teste4: [
+        {
+            teste6: "Teste 6"
+        },
+        {
+            teste8: "Teste 8"
+        }
+    ],
+    teste12: {
+        teste15: false
+    },
+    teste17: false,
+    teste18: 18
+  }
+
+
+`````
 
 ## Help improve
 
-
 Found a bug or a problem? [Open a new issue](https://github.com/JeanPaulll/handle-json-payload/issues)  GitHub.
-
 
 ## Contributing to this project
 
