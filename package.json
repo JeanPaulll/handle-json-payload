@@ -1,0 +1,16 @@
+{
+  "name": "handle-json-payload",
+  "version": "0.0.1",
+  "description": "Library to handle the object that will be sent to an API service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Payload",
+    "JSON",
+    "API"
+  ],
+  "author": "Jean Paul",
+  "license": "MIT"
+}
