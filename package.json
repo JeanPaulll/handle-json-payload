@@ -1,6 +1,6 @@
 {
   "name": "handle-json-payload",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Library to handle the object that will be sent to an API service",
   "main": "index.js",
   "scripts": {
@@ -11,6 +11,10 @@
     "JSON",
     "API"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JeanPaulll/handle-json-payload"
+  },
   "author": "Jean Paul",
   "license": "MIT"
 }
