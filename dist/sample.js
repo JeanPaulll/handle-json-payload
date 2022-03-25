@@ -23,5 +23,46 @@ var __importStar = (this && this.__importStar) || function (mod) {
     return result;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const teste = __importStar(require("./index"));
-console.log(teste.getName());
+const payload = __importStar(require("./index"));
+const obj = {
+    "teste1": null,
+    "teste2": "Some text to represent string",
+    "teste3": [],
+    "teste4": [
+        {
+            "teste5": null
+        },
+        {
+            "teste6": "Teste 6"
+        },
+        {
+            "teste7": [],
+            "teste8": "Teste 8",
+            "teste9": [
+                {
+                    "teste10": null,
+                    "teste11": []
+                }
+            ]
+        }
+    ],
+    "teste12": {
+        "teste13": null,
+        "teste14": {},
+        "teste15": false
+    },
+    "teste16": {},
+    "teste17": false,
+    "teste18": 18,
+    "teste19": [
+        {},
+        {
+            "teste20": []
+        }
+    ]
+};
+const callback = (data) => {
+    console.log('Data->', data);
+    return data;
+};
+console.log(payload.treatObjectToSend(obj, callback));
