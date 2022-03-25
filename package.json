@@ -1,6 +1,6 @@
 {
   "name": "handle-json-payload",
-  "version": "0.0.5",
+  "version": "1.0.0",
   "description": "Library to handle the object that will be sent to an API service",
   "main": "dist/index.js",
   "types" : "dist/index.d.ts",

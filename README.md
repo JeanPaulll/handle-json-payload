@@ -19,7 +19,6 @@ Library to handle the object that will be sent to an API service
 ## How to use
 
 ![](https://raw.githubusercontent.com/JeanPaulll/handle-json-payload/main/doc/1.png)
-![](https://raw.githubusercontent.com/JeanPaulll/handle-json-payload/main/doc/2.png)
 
 ### Installation
 OS X & Linux:
