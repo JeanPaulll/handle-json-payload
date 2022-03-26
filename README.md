@@ -24,16 +24,16 @@ Welcome to add more features. Thanks :)
 
 ### Installation
 
-OS X & Linux:
+NPM:
 
 ````
 npm i handle-json-payload --save
 ````
 
-Windows:
+YARN:
 
 ````
-npm i handle-json-payload --save
+yarn i handle-json-payload --save
 ````
 
 ### 1 - Simple mode, using object handling
@@ -41,7 +41,7 @@ npm i handle-json-payload --save
 ` How to use without intercepting the data`
 
 `````sh
-import * as payload from './index';
+const payload = require('handle-json-payload');
 
 const yourObject = {
     "teste1": null,
@@ -92,7 +92,7 @@ console.log(cleanObject);
 ` If you want to intercept the values ​​and treat you can follow this second example`
 
 `````sh
-import * as payload from './index';
+const payload = require('handle-json-payload');
 
 const yourObject = {
     "teste1": null,
