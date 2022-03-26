@@ -10,7 +10,7 @@
  *
  * #### Example ###
  *
- * import * as payload from './index';
+ * const payload = require('handle-json-payload');
  * const callback = (data: any) => {
  *     console.log('Data->', data);
  *     return data;

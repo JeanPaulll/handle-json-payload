@@ -30,11 +30,6 @@ NPM:
 npm i handle-json-payload --save
 ````
 
-YARN:
-
-````
-yarn i handle-json-payload --save
-````
 
 ### 1 - Simple mode, using object handling
 
