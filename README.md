@@ -167,6 +167,11 @@ console.log(cleanObject);
 
 
 `````
+## Solutions and Errors
+
+1 - [For those with TypeScript getting error TS2304: can't find the name 'requires'](https://github.com/JeanPaulll/handle-json-payload/issues/1)
+
+2 - [TypeScript getting error, cannot find name 'require' - TypeScript 1.x](https://github.com/JeanPaulll/handle-json-payload/issues/2)
 
 ## Help improve
 
